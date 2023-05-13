@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "DOM",
+      "ES2020"
+    ],
+    "paths": {
+      "lodash/*": [
+        "../../artifacts/ui/lodash/*"
+      ],
+    },
+    "baseUrl": ".",
+  },
+  // "watchOptions": {
+  //   "excludeDirectories": ["/absolute/path/to/artifacts"]
+  // }
+}
